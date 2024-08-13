@@ -1,9 +1,10 @@
-const IndexMain = () => {
+/* eslint-disable react/prop-types */ 
+const IndexMain = ({slogan}) => {
   return (
     <div className="main-wrapper">
       <main>
         <section className="text-textbox">
-          <span className="text">INTELLEGENCE BEYOND IMAGINATION</span>
+          <span className="text">{slogan.toUpperCase()}</span>
           <div className="textbox">
             <div className="arrow">&#x2197;</div>
             <h3>3000</h3>
@@ -21,7 +22,7 @@ const IndexMain = () => {
         <section className="section2">
           <div className="text-textbox2-container">
             <div className="text-textbox2">
-              <div className="text2">INTELLEGENCE BEYOND IMAGINATION</div>
+              <div className="text2">{slogan.toUpperCase()}</div>
               <hr className="hrl" />
             </div>
             <div className="bck-img"></div>

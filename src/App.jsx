@@ -6,8 +6,8 @@ import "./App.css"
 const App = () => {
   return (
     <div className="app">
-      <Header/>
-      <IndexMain/>
+      <Header websiteName={"Squile"}/>
+      <IndexMain slogan={"Intellegence Beyond Imagination"}/>
       <Footer/>
     </div>
   )
