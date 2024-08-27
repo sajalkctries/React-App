@@ -270,6 +270,6 @@ footer .copyright {
   text-align: center;
 }
 /*------------------------------------------------------Footer Design Ends--------------------------------------------------------------*/
-li a.active{
+li  a.active{
   border-bottom: 2px solid black;
 }
